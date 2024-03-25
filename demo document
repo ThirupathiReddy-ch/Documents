@@ -1,0 +1,27 @@
+DevOps Tools :--
+0. Plan : Jira and Open Project.
+1. Source Code Management :- GIT
+2. Central Repository for source code:- Github, bitbucket,Gitea
+3. Build Tool:- Maven, Gradlew
+4. Static Code analysis : SonarQube
+5. CICD:- Jenkins,Bamboo and other cloud Services
+6. Containerization:- Docker 
+7. Container Orchestration/Management:- Kubernetes
+8. Monitoring: Prometheus, Grafana and alertmanager
+9. Data streaming:- Kafka
+10. Logs Monitoring:- ELK(Elastic Search, Logstash and kibana) 
+
+AWS Cloud Services
+
+1.IAM : groups,users,roles and policies
+2.VPC: vpc,subnets.routes,security groups, internet gateway,Nat Gateway,NACL,VPC Peering,VPC endpoints.
+3.EC2:- instances, instances types,instance classes and pricing,AMI,Elastic ip,volumes,snapshots,loadbalancer, target groups,Autoscaling
+4.S3:- Bucket, bucket classes and pricing,bucket policy,static web hosting.
+5.RDS: infrastructure provisioning, database basics, snapshots
+6.ECR: Repositories, LifeCycle Policies
+7.EFS: Infrastructure Provisioning
+8.Route53: DNS service, Hosted Zones, dns records
+9.CloudFront :  infrastructure and demo
+10.Cloud Trail: Create events and check logs
+11.EKS:- infrastructure provisioning demo.
+
