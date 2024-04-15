@@ -1,0 +1,7 @@
+FROM node:alpine3.19
+COPY . .
+RUN npm install bcrypt --save
+RUN npm run build
+COPY . .
+EXPOSE 3000
+CMD [ "npm", "start" ]
