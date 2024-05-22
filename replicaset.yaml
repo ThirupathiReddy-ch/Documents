@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: balaji
+spec:
+  replicas: 3
+  selector:  # To Match POD Labels.
+    matchExpressions:  # Set Based Selector
+    - key: app
+      operator: In
+      values:
+      - sample
+      - nginx
+  template:
+    metadata:
+      name: sample
+      labels:
+        app: sample
+    spec:
+      containers:
+      - name: con-nginx
+        image: httpd:latest
+        ports:
+        - containerPort: 80
