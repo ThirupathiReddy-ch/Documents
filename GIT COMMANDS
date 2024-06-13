@@ -1,0 +1,16 @@
+git clone <REPO URL>
+git pull origin <BRANCH NAME>
+git status
+git branch
+git branch <BRANCH NAME>
+git checkout <BRANCH NAME>
+git checkout -b <BRANCH NAME>
+git add <FILENAME>
+git commit -m"MESSAGE"
+git push origin <BRANCH NAME>
+git log
+git log --oneline
+git revert <COMMIT ID>
+git merge <Child Branch Name>
+git stash
+git remote -v
