@@ -1,0 +1,25 @@
+kubectl get ns
+kubectl create namepsace <Name>
+kubectl create ns < Name>
+kubectl get pods
+kubectl get pods -o wide
+kubectl get pod -A
+kubectl get all
+kubectl get pods --all-namespaces
+kubectl get all --all-namespaces
+kubetcl get pods -n <namespace>
+kubectl apply -f <deps.yaml>
+kubectl create -f <deps.yaml>
+kubectl get svc
+kubectl get service
+kubectl get pv
+kubectl get pvc
+kubectl get sc
+kubectl logs -f <pod name>
+kubectl describe pod <pod name>
+kubectl get pod <pod name> -o yaml
+kubectl get pods --show-labels
+kubectl get nodes
+kubectl get nodes --show-labels
+kubectl get svc --show-labels
+kubectl get all --show-labels
