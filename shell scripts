@@ -1,0 +1,24 @@
+cat /etc/shells   --------> To print the type of shells available on our Linux system
+#!/bin/bash ----> It means the interpreter should be a bash shell.
+
+#! ------> This is called shebang or hashbang. The shebang plays an important role in shell scripting, especially while dealing with different types of shells.
+
+The shebang is a combination of the #(pound key) and !(exclamation mark). This character combination has a special meaning when it is used in the very first line of the script.
+it is used to specify the interpreter with which type the given script will run by default.
+
+-----------------------------------------------------------
+vi demo.sh
+#!/bin/sh
+echo "this is first demo shell script"
+date
+uptime
+chmod +x demo.sh
+./demo.sh
+------------------------------------------------------------
+PROJECT-1 --------> HOW TO INSTALL SOFTWARE IN MULTIPLE FLAVOURS OF OS?
+
+Prerequisite
+ What is a variable in a shell script?
+ What is the if and else statement is shell script?
+
+ 
