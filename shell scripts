@@ -41,5 +41,20 @@ else
 fi
 
 ---------------------------------------------------------------------------------------------------------
+Source:  https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
 
- 
+awk -------> awk command is a powerful method for processing or analyzing text or data files,which are organized by lines.
+             we can use the awk command as a Linux command and also as a scriptig language like shell 
+SYNTAX:--
+awk options 'selection _criteria {action }' input-file > output-file
+
+OPTIONS:--
+-f program-file : Reads the AWK program source from the file 
+                  program-file, instead of from the 
+                  first command line argument.
+-F fs            : Use fs for the input field separator
+
+awk '{print}' employee.txt -----------> It will print full data in file.
+awk '/manager/ {print}' employee.txt   ------------> It prints only the data line which contains manager
+awk '{print $1,$4}' employee.txt   ------------> It prints the 1st and 4th words of the lines.
+
