@@ -18,3 +18,4 @@ docker inspect <imagname>:<tag id>
 docker inspect <container id>
 docker inspect <container name>
 docker volume ls
+docker cp /path /contaienerid/path
