@@ -23,3 +23,4 @@ kubectl get nodes
 kubectl get nodes --show-labels
 kubectl get svc --show-labels
 kubectl get all --show-labels
+kubectl get ingress
