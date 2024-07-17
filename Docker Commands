@@ -19,3 +19,4 @@ docker inspect <container id>
 docker inspect <container name>
 docker volume ls
 docker cp /path /contaienerid/path
+docker pull <Image name>
