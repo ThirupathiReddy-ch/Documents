@@ -24,3 +24,11 @@ kubectl get nodes --show-labels
 kubectl get svc --show-labels
 kubectl get all --show-labels
 kubectl get ingress
+journalctl -u kubelet
+kubectl top nodes
+kubectl top pods
+kubectl top pods -n dev
+ kubectl describe node <Node Name> | grep Allocated -A5
+sudo systemctl restart kubelet
+sudo systemctl status kube-proxy
+sudo systemctl restart kube-proxy
