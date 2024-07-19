@@ -34,3 +34,4 @@ sudo systemctl status kube-proxy
 sudo systemctl restart kube-proxy
 kubectl exec -it aone-igotit-anovi-consumer-deps-2 sh
 kubectl cp aone-igotit-anovi-consumer-deps-2:/usr/app/src/runtime/archive.tar ./ooo/ttt.tar
+kubectl delete pods <pod> --grace-period=0 --force
