@@ -21,6 +21,7 @@ kubectl get pod <pod name> -o yaml
 kubectl get pods --show-labels
 kubectl get nodes
 kubectl get nodes --show-labels
+kubectl auth can-i get pods -n test2 --as=system:serviceaccount:test:myaccount
 kubectl get svc --show-labels
 kubectl get all --show-labels
 kubectl get ingress
