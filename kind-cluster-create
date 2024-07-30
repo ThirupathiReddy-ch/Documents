@@ -1,0 +1,23 @@
+Create a Cluster:---->
+kind create cluster --name=[cluster-name]
+
+
+nano workerNodes.yaml
+---------------------------
+  kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: worker
+- role: worker
+----------------------
+
+kind create cluster --name=nodes-test --config=workerNodes.yaml
+
+kubectl get nodes
+
+kind get clusters
+
+kubectl cluster-info --context kind-[cluster-name]
+
+kind delete cluster --name [cluster-name]
